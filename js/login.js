@@ -9,6 +9,6 @@ document.getElementById('btn-submit').addEventListener('click', function(){
         location.href= 'bank.html'
     }
     else{
-        console.log('invalid user');
+        alert('invalid user');
     }
 })
